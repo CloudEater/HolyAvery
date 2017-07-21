@@ -1,0 +1,76 @@
+html {
+  height: 100%;
+}
+
+body {
+  background: linear-gradient(180deg, #AAAFBD, #1D304B);
+  //background-color: #444;
+  //background-image: url("/images/stexturec-Flash.gif");
+  background-size: auto;
+}
+
+body, h1, h2, h3, p {
+  font-family: "Helvetica Neue", "Segoe UI", Segoe, Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: normal;
+  color: #000;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.container {
+  margin-left:  auto;
+  margin-right:  auto;
+  margin-top: 82px;
+  max-width: 1170px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.centered {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
+}
+
+.row:before, .row:after {
+  display: table;
+  content: " ";
+}
+
+h1 {
+  font-size: 48px;
+  font-weight: 500;
+  margin: 0 0 30px 0;
+  text-shadow: 0 0 6px #000000;
+}
+
+h2 {
+  font-size: 32px;
+  font-weight: 700;
+  margin: 0 0 170px 0;
+  text-shadow: 0 0 3px #FFFFFF;
+}
+
+h3 {
+  font-size: 22px;
+  font-weight: 400;
+  margin: 0 0 10px 0;
+}
+
+.lead {
+  font-size: 21px;
+  font-weight: 200;
+  margin-bottom: 20px;
+}
+
+p {
+  margin: 0 0 10px;
+}
+
+a {
+  color: #3282e6;
+  text-decoration: none;
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>HolyAvery</title>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" >
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" type="text/css" href="main.css">
+<link rel="icon" href="/icons/favi2.ico" type="image/x-icon">
+</head>
+
+<body>
+<div class="container text-center" id="error">
+  <div class="row">
+    <div class="col-md-12">
+      <div class="main-icon text-success"><span class="uxicon uxicon-clock-refresh"></span></div>
+	<form action="myData.php" method="post" name="dataForm" >
+		Flavour:<br>
+  		<input type="text" name="flavour"><br><br>
+  		Location:<br>
+  		<input type="text" name="location"><br><br>
+		Graphic:<br>
+  		<input type="radio" name="graphic" value="0" checked> car<br>
+  		<input type="radio" name="graphic" value="1"> compass<br>
+		<input type="radio" name="graphic" value="2"> diamond<br>
+		<input type="radio" name="graphic" value="3"> fire<br>
+		<input type="radio" name="graphic" value="4"> grill<br>
+		<input type="radio" name="graphic" value="5"> rocket<br>
+  		<input type="radio" name="graphic" value="6"> search<br>
+		<input type="radio" name="graphic" value="7"> sun<br>
+		<input type="radio" name="graphic" value="8"> tent<br>
+  		<input type="radio" name="graphic" value="9"> wood<br><br>
+		 Notes:<br>
+  		<input type="text" name="notes"><br><br>
+		<input type="submit" value="Submit">
+	</form>    
+	</div>	
+  </div>
+</div>
+</body>
+</html>
